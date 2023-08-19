@@ -11,3 +11,7 @@ accountCity="patherdewa"
 
 console.log(accountId)
 console.table([accountEmail,accountPassword,accountCity])
+/*
+prefer not use var 
+because of issue in block scope and functional scope
+*/
