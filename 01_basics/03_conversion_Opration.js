@@ -31,6 +31,32 @@ console.log(booleanLoggedIn);
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
   
+// ************************** Oprations *********************
+let value = 5
+let negValue = -value;
+// console.log(negValue)
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+// console.log(2%2)
+
+let str1 = "hello";
+let str2 = " Nasim khan"
+
+let str3 = str1 + str2
+console.log(str3)
+
+console.log(+ true)
+console.log(+ "")
+
+let num1 , num2,num3 
+
+let gameCounter = 100;
+gameCounter++; // prifix=====
+++gameCounter // post Fix====
+console.log(gameCounter);
